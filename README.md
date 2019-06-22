@@ -17,4 +17,4 @@ Lines 61 and 62 of Vagrantfile set the virtual machine up with 512MB RAM and 1 C
 * Replace "YourDBPassword" with your chosen database password on line 1 of mysql_secure_installation.sql.
 * From your project folder in your terminal type `vagrant up` - this may take a while to execute the first time, as all the files will need ot be downloaded.
 * Navigate to http://your.hostname (or whatever you defined in line 36 of Vagrantfile), you should see the Apache default page.
-* Add you source code (or even install your CMS of choice) in to the "Content" folder, which is where Apache will serve from.
+* Add your source code (or even install your CMS of choice) in to the "Content" folder, which is where Apache will serve from.
