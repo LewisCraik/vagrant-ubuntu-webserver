@@ -16,7 +16,7 @@ mysql -sfu root < "/vagrant/mysql_secure_installation.sql"
 
 ### Install PHP ###
 echo -e "\n--- Installing PHP ---\n"
-apt-get install -y php libapache2-mod-php php-mysql
+apt-get install -y php libapache2-mod-php php-mysql php-xml php-curl
 # Tell Apache to prefer PHP files
 cat > /etc/apache2/mods-enabled/dir.conf << EOF
 <IfModule mod_dir.c>
